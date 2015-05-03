@@ -1,0 +1,9 @@
+\frametitle{Simulation-Tuning}
+\begin{lstlisting}
+k.perm <- SparseKMeansTuning(x,K=3,wbounds=seq(3,10,len=15), nperm=10)
+\end{lstlisting}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.7\textwidth]{nonzerofeature.pdf}
+\end{figure}
